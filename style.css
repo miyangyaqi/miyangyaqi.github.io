@@ -11,20 +11,27 @@ body {
 
 a {
     background-color: #003380;
-    outline-style: solid;
-    outline-color: black;
     text-decoration: none;
     color: white;
     padding: 5px 10px;
     text-align: center;
     display: inline-block;
+    float: right;
+    /*
+    border: 1px solid white;
+    border-radius: 5px;
+    */
 }
 
-/*
-#menu {
-    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-*/
+li {
+    float: left;
+}
 
 #footer {
     position: fixed;

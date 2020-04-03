@@ -1,7 +1,9 @@
 body {
-    background-image: url(background.heic);
+    background-image: url("background.heic");
     background-repeat: no-repeat;
     background-size: contain;
+    background-attachment: fixed;
+    
     font-family: Courier New;
     color: white;
     margin-left: 20px;

@@ -1,8 +1,8 @@
 body {
-    background-image: url("background.heic");
+    background-image: url("./background.png");
     background-repeat: no-repeat;
-    background-size: contain;
-    background-attachment: fixed;
+    /*background-size: cover;
+    background-attachment: scroll;*/
     
     font-family: Courier New;
     color: white;
@@ -12,5 +12,6 @@ body {
 #footer {
     background-color: lightgrey;
     text-align: right;
-    border-right: 6px solid #99ccff;
+    color: black;
+    border-right: 12px solid #99ccff;
 }

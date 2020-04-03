@@ -1,0 +1,12 @@
+body {
+    background-image: url(background.heic)
+    font-family: Courier New;
+    color: white;
+    margin-left: 20px;
+}
+
+#footer {
+    background-color: lightgrey;
+    text-align: right;
+    border-right: 6px solid #99ccff;
+}

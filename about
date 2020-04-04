@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Michelle Yang</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="images/tab.jpg">
+  </head>
+  <body>
+    <div id="header">
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="projects">Projects</a></li>
+        <li><a href="blog">Blog</a></li>
+        <li><a href="art">Art</a></li>
+        <li><a href="contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div id="content">
+      <h3>
+        Hello! I'm Michelle Yang.
+      </h3>
+      <p>
+        I've recently graduated from the University of Washington
+        in Seattle, WA with a BS in Computer Science and minors in
+        Math and Chemistry. I will be beginning full-time with
+        Facebook in Seattle at the end of April.<br><br>
+        (Autumn 2016) I started at UW after 10th grade through a
+        program called the UW Academy at the Robinson Center.<br><br>
+        (Summer 2018) After my sophomore year in college, I interned
+        at Salesforce in their Bellevue office, where I got an
+        introduction to Kubernetes, Docker, Spark, Jupyter, Jackson/
+        JSON, and Nginx by working with two other interns in making
+        a notebook application that worked with the existing code base.
+        I containerized our application with Docker, helped expose/
+        deserialize/apply customizable Spark options to users, and
+        exposed the Spark UI and history UI to the application.<br><br>
+        (Summer 2019) The summer after, I interned at Facebook in
+        the Menlo Park office. I worked on a team that provided a
+        distributed system shuffle service between executors. My
+        internship was focused on improving memory efficiency: I
+        improved memory usage by ~1.5% by rewriting per-row metadata
+        into per-package and then worked on increasing the number of
+        reducers supported in Spark jobs from currently 10,000 to
+        120,000 (using same amount of memory) by rewriting mapper
+        to shuffle service packages.<br><br>
+        (Winter 2020) During my last quarter at UW, I interned with
+        a startup called Wyze Labs in Kirkland that made extremely
+        cheap smart home devices, most well known for their Wyze Cams.
+        I worked a bit on various projects, including design planning
+        for a data lake, writing APIs, and working with AWS tools to
+        provide business intelligence better access to the data.<br><br>
+      </p>
+    </div>
+
+    <div id="disclaimer">
+      <p>
+        The background photo on this website was taken February 27 2020 as I
+        was walking out after work at Wyze in Kirkland to the bus stop
+        on an iPhone 11.<br><br>
+        The photo to the right is of me over the summer (taken August 3rd
+        2019) at a Facebook intern event at the Santa Cruz Boardwalk.<br><br>
+        <img src="images/potato.jpg" alt="picture of Michelle"
+             style="float:right; height:25em; margin-right:10em; margin-top:-5em;">
+      </p>
+    </div>
+
+    <div id="footer">
+      <p>Copyright 2020 Michelle Yang all rights reserved</p>
+    </div>
+</html>

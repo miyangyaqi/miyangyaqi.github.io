@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/background.png");
+    background-image: url("images/background.jpg");
     background-repeat: no-repeat;
     background-color: black;
     background-attachment: fixed;
@@ -32,7 +32,7 @@ li a {
     text-align: center;
     display: inline-block;
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.5vh;
 }
 
 li a:hover {
@@ -41,18 +41,16 @@ li a:hover {
 
 #content {
     max-width: 80vw;
-    max-height: 100vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
-    font-size: 1.5vh;
+    font-size: 1.5vmin;
 }
 
 #disclaimer {
     max-width: 80vw;
-    max-height: 100vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    font-size: 1vh;
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+    font-size: 1vmin;
 }
 
 #footer {
@@ -66,4 +64,5 @@ li a:hover {
     padding: 0.25vh;
     padding-right: 1vw;
     color: black;
+    font-size: 1.5vh;
 }

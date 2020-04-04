@@ -8,14 +8,14 @@ body {
     color: white;
 
     position: fixed;
-    left: 5vw;
-    right: 5vw;
+    left: 5vmax;
+    right: 5vmax;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0.25vw;
+    padding: 0.25vmax;
     overflow: hidden;
     background-color: #003380;
 }
@@ -26,11 +26,11 @@ li {
 
 li a {
     text-decoration: none;
-    padding: 0.25vw 0.5vw;
+    padding: 0.25vmax 0.5vmax;
     text-align: center;
     display: inline-block;
     color: white;
-    font-size: 1 vw;
+    font-size: 1 vmax;
 }
 
 li a:hover {
@@ -38,30 +38,30 @@ li a:hover {
 }
 
 #shell {
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-    font-size: 0.75vw;
+    margin-left: 2.5vmax;
+    margin-right: 2.5vmax;
+    font-size: 0.75vmax;
 }
 
 #content {
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-    font-size: 0.75vw;
+    margin-left: 2.5vmax;
+    margin-right: 2.5vmax;
+    font-size: 0.75vmax;
 }
 
 #disclaimer {
-    margin-left: 5vw;
-    font-size: 0.5vw;
+    margin-left: 5vmax;
+    font-size: 0.5vmax;
 }
 
 #footer {
     position: fixed;
-    left: 5vw;
-    right: 5vw;
+    left: 5vmax;
+    right: 5vmax;
     bottom: 0;
     
     background-color: lightgrey;
     text-align: right;
-    padding-right: 1vw;
+    padding-right: 1vmax;
     color: black;
 }

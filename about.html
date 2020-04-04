@@ -4,8 +4,16 @@
     <title>About Michelle Yang</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="images/tab.jpg">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
+    <div id="nav-placeholder"></div>
+    <script>
+      $(function(){
+          $("#nav-placeholder").load("form.html");
+      });
+    </script>
+    <!--
     <div id="header">
       <ul id="menu">
         <li><a href="index.html">Home</a></li>
@@ -16,6 +24,7 @@
         <li><a href="contact">Contact</a></li>
       </ul>
     </div>
+    -->
 
     <div id="content">
       <h3>
@@ -66,7 +75,10 @@
       </p>
     </div>
 
+    <!--
     <div id="footer">
       <p>Copyright 2020 Michelle Yang all rights reserved</p>
     </div>
+    -->
+  </body>
 </html>

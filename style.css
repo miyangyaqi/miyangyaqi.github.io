@@ -8,14 +8,14 @@ body {
     color: white;
 
     position: fixed;
-    left: 10em;
-    right: 10em;
+    left: 5vw;
+    right: 5vw;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0.2em;
+    padding: 0.25vw;
     overflow: hidden;
     background-color: #003380;
 }
@@ -26,11 +26,11 @@ li {
 
 li a {
     text-decoration: none;
-    padding: 0.3125em 0.625em;
+    padding: 0.25vw 0.5vw;
     text-align: center;
     display: inline-block;
     color: white;
-    font-size: 1.25em;
+    font-size: 1 vw;
 }
 
 li a:hover {
@@ -38,29 +38,30 @@ li a:hover {
 }
 
 #shell {
-    margin-left: 2em;
-    font-size: 1.3em;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    font-size: 0.75vw;
 }
 
 #content {
-    margin-left: 5em;
-    margin-right: 5em;
-    font-size: 1.3em;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    font-size: 0.75vw;
 }
 
 #disclaimer {
-    margin-left: 5em;
-    font-size: 0.7em;
+    margin-left: 5vw;
+    font-size: 0.5vw;
 }
 
 #footer {
     position: fixed;
-    left: 10em;
-    right: 10em;
+    left: 5vw;
+    right: 5vw;
     bottom: 0;
     
     background-color: lightgrey;
     text-align: right;
-    padding-right: 2em;
+    padding-right: 1vw;
     color: black;
 }

@@ -1,21 +1,23 @@
 body {
     background-image: url("images/background.png");
     background-repeat: no-repeat;
-    background-size: cover;
     background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
 
     font-family: Courier;
     color: white;
 
     position: fixed;
-    left: 5vmax;
-    right: 5vmax;
+    left: 5vw;
+    right: 5vw;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0.25vmax;
+    padding: 0.25vh;
     overflow: hidden;
     background-color: #003380;
 }
@@ -26,42 +28,41 @@ li {
 
 li a {
     text-decoration: none;
-    padding: 0.25vmax 0.5vmax;
+    padding: 0.25vh 0.5vw;
     text-align: center;
     display: inline-block;
     color: white;
-    font-size: 1 vmax;
+    font-size: 1 vw;
 }
 
 li a:hover {
     background-color: grey;
 }
 
-#shell {
-    margin-left: 2.5vmax;
-    margin-right: 2.5vmax;
-    font-size: 0.75vmax;
-}
-
 #content {
-    margin-left: 2.5vmax;
-    margin-right: 2.5vmax;
-    font-size: 0.75vmax;
+    max-width: 80vw;
+    max-height: 100vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    font-size: 1.5vh;
 }
 
 #disclaimer {
-    margin-left: 5vmax;
-    font-size: 0.5vmax;
+    max-width: 80vw;
+    max-height: 100vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 1vh;
 }
 
 #footer {
     position: fixed;
-    left: 5vmax;
-    right: 5vmax;
+    left: 5vw;
+    right: 5vw;
     bottom: 0;
     
     background-color: lightgrey;
     text-align: right;
-    padding-right: 1vmax;
+    padding-right: 1vw;
     color: black;
 }
